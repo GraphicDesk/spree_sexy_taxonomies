@@ -11,8 +11,9 @@ Installation
 Add spree_sexy_taxonomies to your Gemfile:
 
 ```ruby
-gem 'spree_sexy_taxonomies', github: 'KyleMacey/spree_sexy_taxonomies'
+gem 'spree_sexy_taxonomies', github: 'GraphicDesk/spree_sexy_taxonomies'
 ```
+Works with Spree version 3.0.0
 
 Bundle your dependencies and run the installation generator:
 
