@@ -8,10 +8,10 @@ on the taxons#show page along with its previously existing "description" attribu
 Installation
 ------------
 
-Add spree_sexy_taxonomies to your Gemfile:
+Add spree_sexy_taxonomies (for Spree 3.0.0) to your Gemfile:
 
 ```ruby
-gem 'spree_sexy_taxonomies', github: 'GraphicDesk/spree_sexy_taxonomies'
+gem 'spree_sexy_taxonomies', '=2.2.0', github: 'GraphicDesk/spree_sexy_taxonomies', branch: '3-0-stable'
 ```
 Works with Spree version 3.0.0
 
