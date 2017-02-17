@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_sexy_taxonomies'
-  s.version     = '2.2.1'
+  s.version     = '2.2.2'
   s.summary     = 'Spree Extension to add and display enriched information for taxons and taxonomies'
   s.description = 'spree_sexy_taxonomies is intended to expand upon the possibilities for the display and presentation of taxonomies and taxons. At this point, it adds a "header" image to the Spree::Taxon model and displays it on the taxons#show page along with its previously existing "description" attribute.'
   s.required_ruby_version = '>= 2.2.0'
@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sass-rails', '~> 5.0.3'
   s.add_development_dependency 'selenium-webdriver'
 #   s.add_development_dependency 'simplecov'
-  s.add_development_dependency 'simplecov', '>= 0', '>= 0'
+  s.add_development_dependency 'simplecov'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'simplecov-rcov'
   s.add_development_dependency 'shoulda-matchers'
